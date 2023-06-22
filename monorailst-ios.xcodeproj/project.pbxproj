@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4221D8972A3CC5F400051E62 /* monorailst_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221D8962A3CC5F400051E62 /* monorailst_iosApp.swift */; };
+		4221D8992A3CC5F400051E62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221D8982A3CC5F400051E62 /* ContentView.swift */; };
+		4221D89B2A3CC5F500051E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4221D89A2A3CC5F500051E62 /* Assets.xcassets */; };
+		4221D89E2A3CC5F500051E62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4221D89D2A3CC5F500051E62 /* Preview Assets.xcassets */; };
+		4221D8A82A3CC5F500051E62 /* monorailst_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221D8A72A3CC5F500051E62 /* monorailst_iosTests.swift */; };
+		4221D8B22A3CC5F500051E62 /* monorailst_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221D8B12A3CC5F500051E62 /* monorailst_iosUITests.swift */; };
+		4221D8B42A3CC5F500051E62 /* monorailst_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221D8B32A3CC5F500051E62 /* monorailst_iosUITestsLaunchTests.swift */; };
+		42EB3FAA2A42150200181B9B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EB3FA92A42150200181B9B /* NetworkExtension.framework */; };
+		42EB3FAD2A42150200181B9B /* FilterDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB3FAC2A42150200181B9B /* FilterDataProvider.swift */; };
+		42EB3FB22A42150200181B9B /* ContentBlocker.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 42EB3FA72A42150200181B9B /* ContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42EB3FCA2A422AF500181B9B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EB3FA92A42150200181B9B /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4221D8A42A3CC5F500051E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4221D88B2A3CC5F400051E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4221D8922A3CC5F400051E62;
+			remoteInfo = "monorailst-ios";
+		};
+		4221D8AE2A3CC5F500051E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4221D88B2A3CC5F400051E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4221D8922A3CC5F400051E62;
+			remoteInfo = "monorailst-ios";
+		};
+		42EB3FB02A42150200181B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4221D88B2A3CC5F400051E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EB3FA62A42150200181B9B;
+			remoteInfo = ContentBlocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42EB3FB32A42150200181B9B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				42EB3FB22A42150200181B9B /* ContentBlocker.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4221D8932A3CC5F400051E62 /* monorailst-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "monorailst-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4221D8962A3CC5F400051E62 /* monorailst_iosApp.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = monorailst_iosApp.swift; sourceTree = "<group>"; tabWidth = 4; };
+		4221D8982A3CC5F400051E62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4221D89A2A3CC5F500051E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4221D89D2A3CC5F500051E62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4221D8A32A3CC5F500051E62 /* monorailst-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "monorailst-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4221D8A72A3CC5F500051E62 /* monorailst_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monorailst_iosTests.swift; sourceTree = "<group>"; };
+		4221D8AD2A3CC5F500051E62 /* monorailst-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "monorailst-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4221D8B12A3CC5F500051E62 /* monorailst_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monorailst_iosUITests.swift; sourceTree = "<group>"; };
+		4221D8B32A3CC5F500051E62 /* monorailst_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monorailst_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4221D8C02A3CC63400051E62 /* monorailst-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "monorailst-ios.entitlements"; sourceTree = "<group>"; };
+		42EB3FA72A42150200181B9B /* ContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EB3FA92A42150200181B9B /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		42EB3FAC2A42150200181B9B /* FilterDataProvider.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = FilterDataProvider.swift; sourceTree = "<group>"; tabWidth = 4; };
+		42EB3FAE2A42150200181B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EB3FAF2A42150200181B9B /* ContentBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContentBlocker.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4221D8902A3CC5F400051E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EB3FCA2A422AF500181B9B /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4221D8A02A3CC5F500051E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4221D8AA2A3CC5F500051E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB3FA42A42150200181B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EB3FAA2A42150200181B9B /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4221D88A2A3CC5F400051E62 = {
+			isa = PBXGroup;
+			children = (
+				4221D8952A3CC5F400051E62 /* monorailst-ios */,
+				4221D8A62A3CC5F500051E62 /* monorailst-iosTests */,
+				4221D8B02A3CC5F500051E62 /* monorailst-iosUITests */,
+				42EB3FAB2A42150200181B9B /* ContentBlocker */,
+				42EB3FA82A42150200181B9B /* Frameworks */,
+				4221D8942A3CC5F400051E62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4221D8942A3CC5F400051E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4221D8932A3CC5F400051E62 /* monorailst-ios.app */,
+				4221D8A32A3CC5F500051E62 /* monorailst-iosTests.xctest */,
+				4221D8AD2A3CC5F500051E62 /* monorailst-iosUITests.xctest */,
+				42EB3FA72A42150200181B9B /* ContentBlocker.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4221D8952A3CC5F400051E62 /* monorailst-ios */ = {
+			isa = PBXGroup;
+			children = (
+				4221D8C02A3CC63400051E62 /* monorailst-ios.entitlements */,
+				4221D8962A3CC5F400051E62 /* monorailst_iosApp.swift */,
+				4221D8982A3CC5F400051E62 /* ContentView.swift */,
+				4221D89A2A3CC5F500051E62 /* Assets.xcassets */,
+				4221D89C2A3CC5F500051E62 /* Preview Content */,
+			);
+			path = "monorailst-ios";
+			sourceTree = "<group>";
+		};
+		4221D89C2A3CC5F500051E62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4221D89D2A3CC5F500051E62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4221D8A62A3CC5F500051E62 /* monorailst-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				4221D8A72A3CC5F500051E62 /* monorailst_iosTests.swift */,
+			);
+			path = "monorailst-iosTests";
+			sourceTree = "<group>";
+		};
+		4221D8B02A3CC5F500051E62 /* monorailst-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4221D8B12A3CC5F500051E62 /* monorailst_iosUITests.swift */,
+				4221D8B32A3CC5F500051E62 /* monorailst_iosUITestsLaunchTests.swift */,
+			);
+			path = "monorailst-iosUITests";
+			sourceTree = "<group>";
+		};
+		42EB3FA82A42150200181B9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42EB3FA92A42150200181B9B /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42EB3FAB2A42150200181B9B /* ContentBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				42EB3FAC2A42150200181B9B /* FilterDataProvider.swift */,
+				42EB3FAE2A42150200181B9B /* Info.plist */,
+				42EB3FAF2A42150200181B9B /* ContentBlocker.entitlements */,
+			);
+			path = ContentBlocker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4221D8922A3CC5F400051E62 /* monorailst-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4221D8B72A3CC5F500051E62 /* Build configuration list for PBXNativeTarget "monorailst-ios" */;
+			buildPhases = (
+				4221D88F2A3CC5F400051E62 /* Sources */,
+				4221D8902A3CC5F400051E62 /* Frameworks */,
+				4221D8912A3CC5F400051E62 /* Resources */,
+				42EB3FB32A42150200181B9B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EB3FB12A42150200181B9B /* PBXTargetDependency */,
+			);
+			name = "monorailst-ios";
+			productName = "monorailst-ios";
+			productReference = 4221D8932A3CC5F400051E62 /* monorailst-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4221D8A22A3CC5F500051E62 /* monorailst-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4221D8BA2A3CC5F500051E62 /* Build configuration list for PBXNativeTarget "monorailst-iosTests" */;
+			buildPhases = (
+				4221D89F2A3CC5F500051E62 /* Sources */,
+				4221D8A02A3CC5F500051E62 /* Frameworks */,
+				4221D8A12A3CC5F500051E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4221D8A52A3CC5F500051E62 /* PBXTargetDependency */,
+			);
+			name = "monorailst-iosTests";
+			productName = "monorailst-iosTests";
+			productReference = 4221D8A32A3CC5F500051E62 /* monorailst-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4221D8AC2A3CC5F500051E62 /* monorailst-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4221D8BD2A3CC5F500051E62 /* Build configuration list for PBXNativeTarget "monorailst-iosUITests" */;
+			buildPhases = (
+				4221D8A92A3CC5F500051E62 /* Sources */,
+				4221D8AA2A3CC5F500051E62 /* Frameworks */,
+				4221D8AB2A3CC5F500051E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4221D8AF2A3CC5F500051E62 /* PBXTargetDependency */,
+			);
+			name = "monorailst-iosUITests";
+			productName = "monorailst-iosUITests";
+			productReference = 4221D8AD2A3CC5F500051E62 /* monorailst-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		42EB3FA62A42150200181B9B /* ContentBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EB3FB62A42150200181B9B /* Build configuration list for PBXNativeTarget "ContentBlocker" */;
+			buildPhases = (
+				42EB3FA32A42150200181B9B /* Sources */,
+				42EB3FA42A42150200181B9B /* Frameworks */,
+				42EB3FA52A42150200181B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContentBlocker;
+			productName = ContentBlocker;
+			productReference = 42EB3FA72A42150200181B9B /* ContentBlocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4221D88B2A3CC5F400051E62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4221D8922A3CC5F400051E62 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4221D8A22A3CC5F500051E62 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4221D8922A3CC5F400051E62;
+					};
+					4221D8AC2A3CC5F500051E62 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4221D8922A3CC5F400051E62;
+					};
+					42EB3FA62A42150200181B9B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4221D88E2A3CC5F400051E62 /* Build configuration list for PBXProject "monorailst-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4221D88A2A3CC5F400051E62;
+			productRefGroup = 4221D8942A3CC5F400051E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4221D8922A3CC5F400051E62 /* monorailst-ios */,
+				4221D8A22A3CC5F500051E62 /* monorailst-iosTests */,
+				4221D8AC2A3CC5F500051E62 /* monorailst-iosUITests */,
+				42EB3FA62A42150200181B9B /* ContentBlocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4221D8912A3CC5F400051E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4221D89E2A3CC5F500051E62 /* Preview Assets.xcassets in Resources */,
+				4221D89B2A3CC5F500051E62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4221D8A12A3CC5F500051E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4221D8AB2A3CC5F500051E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB3FA52A42150200181B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4221D88F2A3CC5F400051E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4221D8992A3CC5F400051E62 /* ContentView.swift in Sources */,
+				4221D8972A3CC5F400051E62 /* monorailst_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4221D89F2A3CC5F500051E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4221D8A82A3CC5F500051E62 /* monorailst_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4221D8A92A3CC5F500051E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4221D8B42A3CC5F500051E62 /* monorailst_iosUITestsLaunchTests.swift in Sources */,
+				4221D8B22A3CC5F500051E62 /* monorailst_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB3FA32A42150200181B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EB3FAD2A42150200181B9B /* FilterDataProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4221D8A52A3CC5F500051E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4221D8922A3CC5F400051E62 /* monorailst-ios */;
+			targetProxy = 4221D8A42A3CC5F500051E62 /* PBXContainerItemProxy */;
+		};
+		4221D8AF2A3CC5F500051E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4221D8922A3CC5F400051E62 /* monorailst-ios */;
+			targetProxy = 4221D8AE2A3CC5F500051E62 /* PBXContainerItemProxy */;
+		};
+		42EB3FB12A42150200181B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EB3FA62A42150200181B9B /* ContentBlocker */;
+			targetProxy = 42EB3FB02A42150200181B9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4221D8B52A3CC5F500051E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4221D8B62A3CC5F500051E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4221D8B82A3CC5F500051E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "monorailst-ios/monorailst-ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"monorailst-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 3C5287NBLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.eo.monorailst-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4221D8B92A3CC5F500051E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "monorailst-ios/monorailst-ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"monorailst-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 3C5287NBLR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.eo.monorailst-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4221D8BB2A3CC5F500051E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C5287NBLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.eo.monorailst-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/monorailst-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/monorailst-ios";
+			};
+			name = Debug;
+		};
+		4221D8BC2A3CC5F500051E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C5287NBLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.eo.monorailst-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/monorailst-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/monorailst-ios";
+			};
+			name = Release;
+		};
+		4221D8BE2A3CC5F500051E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C5287NBLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.eo.monorailst-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "monorailst-ios";
+			};
+			name = Debug;
+		};
+		4221D8BF2A3CC5F500051E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C5287NBLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.eo.monorailst-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "monorailst-ios";
+			};
+			name = Release;
+		};
+		42EB3FB42A42150200181B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = ContentBlocker/ContentBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C5287NBLR;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContentBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ContentBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.eo.monorailst-ios.ContentBlocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42EB3FB52A42150200181B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = ContentBlocker/ContentBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3C5287NBLR;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContentBlocker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ContentBlocker;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tt.eo.monorailst-ios.ContentBlocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4221D88E2A3CC5F400051E62 /* Build configuration list for PBXProject "monorailst-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4221D8B52A3CC5F500051E62 /* Debug */,
+				4221D8B62A3CC5F500051E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4221D8B72A3CC5F500051E62 /* Build configuration list for PBXNativeTarget "monorailst-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4221D8B82A3CC5F500051E62 /* Debug */,
+				4221D8B92A3CC5F500051E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4221D8BA2A3CC5F500051E62 /* Build configuration list for PBXNativeTarget "monorailst-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4221D8BB2A3CC5F500051E62 /* Debug */,
+				4221D8BC2A3CC5F500051E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4221D8BD2A3CC5F500051E62 /* Build configuration list for PBXNativeTarget "monorailst-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4221D8BE2A3CC5F500051E62 /* Debug */,
+				4221D8BF2A3CC5F500051E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EB3FB62A42150200181B9B /* Build configuration list for PBXNativeTarget "ContentBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EB3FB42A42150200181B9B /* Debug */,
+				42EB3FB52A42150200181B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4221D88B2A3CC5F400051E62 /* Project object */;
+}
